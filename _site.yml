@@ -1,0 +1,9 @@
+name: "maureencarey-website"
+output_dir: "."
+navbar:
+  title: "Maureen Carey's Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
