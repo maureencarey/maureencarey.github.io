@@ -1,2 +1,2 @@
-# maureencarey.github.io
-personal wesbite
+# mac_website
+personal website

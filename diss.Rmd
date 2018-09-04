@@ -1,0 +1,7 @@
+---
+title: "Dissertation"
+---
+
+<!-- Code for integrating icons from https://github.com/carlsednaoui/gitsocial -->
+Check out my PhD dissertation here:
+<embed src="https://maureencarey.github.io/dissertation.pdf" type="application/pdf" />

@@ -1,5 +1,15 @@
 ---
-title: "Maureen Careys's Website"
+title: "Welcome"
 ---
 
-Hello, World!
+<!-- Code for integrating icons from https://github.com/carlsednaoui/gitsocial -->
+Check out my twitter and github here:
+
+[![alt text][1.1]][1]
+[![alt text][6.1]][6]
+
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[6.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+
+[1]: http://www.twitter.com/MaureenACarey
+[6]: http://www.github.com/maureencarey
