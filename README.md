@@ -1,2 +1,2 @@
 # mac_website
-personal website
+code for my personal website
