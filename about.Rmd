@@ -4,18 +4,22 @@ title: "About Me"
 
 __Name:__ Maureen A. Carey
 
+
 __Occupation:__ Graduate student researcher, soon to begin as a Postdoctoral Research Associate with Dr. William Petri
+
 
 __Affiliation:__ Microbiology, Immunology, and Cancer Biology at the University of Virginia, School of Medicine, soon to join the Division of Infectious Diseases and International Health at the University of Virginia, School of Medicine
 
+
 __PhD Mentors:__ Jason A. Papin and Jennifer L. Guler
 See [here for Papin lab website](http://bme.virginia.edu/csbl/home.html) and [here for the Guler lab website.](https://jlg5fw.wixsite.com/malarialab)
+
 
 __Research Interests:__ I am interested in engineering solutions to public health problems. 
 
 In 2016, over 2.7 million children under the age of 5 years died due to preventable causes; infectious diseases such as malaria and diarrhea are among the top five killers of these children and, in many countries, are the leading cause of child mortality (see **Fig. 1**). The discrepancy in child mortality due to infection between high- and low/mid-income countries highlights the need to supplement clinical solutions with engineering approachs to extend disease prevention and treatment into lower income environments.
 
-![Figure 1: **Leading causes of child mortality**. doi:10.1001/jamapediatrics.2015.4276](~/local_documents/personal/mac_website/map_child_mortality.png){width = 50%}
+![Figure 1: **Leading causes of child mortality**. doi:10.1001/jamapediatrics.2015.4276](./map_child_mortality.png)
 
 So far, my research has focused on understanding the metabolism of eukaryotic parasites (like the malaria parasite) to rationally design antimicrobials. My goal is to identify metabolic weaknesses of the parasite to design combination therapies to specifically target resistant parasites. The development of novel drugs is extremely expensive; thus, this approach is faster and lower cost by using existing drugs in new combinations. I use computational tools (*i.e.* genome-scale metabolic modeling, machine learning, and statistical models) to profile the phenotype of the malaria parasite, and supplement these tools with  *in vitro* experiments. 
 

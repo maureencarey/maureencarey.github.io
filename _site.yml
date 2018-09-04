@@ -9,3 +9,7 @@ navbar:
       href: about.html
     - text: "Publications"
       href: pubs.html
+    - text: "Dissertation"
+      href: diss.html
+    - text: "CV"
+      href: cv.html
