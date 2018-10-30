@@ -5,10 +5,14 @@ title: "About Me"
 __Name:__ Maureen A. Carey
 
 
-__Occupation:__ Graduate student researcher, soon to begin as a Postdoctoral Research Associate with Dr. William Petri
+__Occupation:__ Postdoctoral Research Associate with Dr. William Petri
 
 
-__Affiliation:__ Microbiology, Immunology, and Cancer Biology at the University of Virginia, School of Medicine, soon to join the Division of Infectious Diseases and International Health at the University of Virginia, School of Medicine
+__Affiliation:__ Division of Infectious Diseases and International Health at the University of Virginia, School of Medicine
+
+
+__PhD Mentors:__ William Petri
+See [here for Petri lab website.](https://med.virginia.edu/petri-lab/)
 
 
 __PhD Mentors:__ Jason A. Papin and Jennifer L. Guler

@@ -13,3 +13,5 @@ navbar:
       href: diss.html
     - text: "CV"
       href: cv.html
+    - text: "Blog"
+      href: blog.html
