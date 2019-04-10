@@ -8,12 +8,14 @@ title: "Publications"
 
 **Carey MA**, Covelli V, Brown A, Medlock GL, Haaren M, Cooper JG, Papin JA, Guler JL (2018). **Influential parameters for the analysis of intracellular parasite metabolomics.** *mSphere* 3(2): e00097-18; https://doi.org/10.1128/mSphere.00097-18
 
-**Carey MA**, Papin JA (2018). **Ten simple rules for biologists learning to program.** *PLOS Computational Biology* 14(1): e1005871. https://doi.org/10.1371/journal.pcbi.1005871  **Accessed over 43,000 times,** with 30% of views leading to a download.
+**Carey MA**, Papin JA (2018). **Ten simple rules for biologists learning to program.** *PLOS Computational Biology* 14(1): e1005871. https://doi.org/10.1371/journal.pcbi.1005871  **Accessed over 48,000 times,** with 30% of views leading to a download.
 
 Medlock GL, **Carey MA**, McDuffie DG, Mundy MB, Giallourou N, Swann JR, Kolling G, Papin JA (2018). **Metabolic mechanisms of interaction within a defined gut microbiota.** *Cell Systems.*
 https://doi.org/10.1016/j.cels.2018.08.003 **Most viewed Cell Systems paper for 3 months.**
 
-**Carey MA**, Untaroiu AM, Guler JL, Papin JA (2018). **Leveraging the effects of chloroquine on resistant malaria parasites for combination therapies.** *bioRxiv.* https://doi.org/10.1101/428284
+Huckaby AC, Granum CS, **Carey MA**, Szlachta L, Al-Barghouthi B, Wang Y, Guler JL (2018. **Complex DNA structures trigger copy number variation across the Plasmodium falciparum genome.** *Nucleic Acids Research.* https://doi.org/10.1093/nar/gky1268
+
+**Carey MA**, Untaroiu AM, Guler JL, Papin JA (2018). **Leveraging the effects of chloroquine on resistant malaria parasites for combination therapies.** *bioRxiv*, accepted to *BMC Bioinformatics.* https://doi.org/10.1101/428284
 
 # 2017
 

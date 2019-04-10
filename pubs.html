@@ -90,8 +90,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -107,7 +113,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -127,6 +132,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -148,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -216,9 +317,10 @@ $(document).ready(function () {
 <div id="section" class="section level1">
 <h1>2018</h1>
 <p><strong>Carey MA</strong>, Covelli V, Brown A, Medlock GL, Haaren M, Cooper JG, Papin JA, Guler JL (2018). <strong>Influential parameters for the analysis of intracellular parasite metabolomics.</strong> <em>mSphere</em> 3(2): e00097-18; <a href="https://doi.org/10.1128/mSphere.00097-18" class="uri">https://doi.org/10.1128/mSphere.00097-18</a></p>
-<p><strong>Carey MA</strong>, Papin JA (2018). <strong>Ten simple rules for biologists learning to program.</strong> <em>PLOS Computational Biology</em> 14(1): e1005871. <a href="https://doi.org/10.1371/journal.pcbi.1005871" class="uri">https://doi.org/10.1371/journal.pcbi.1005871</a> <strong>Accessed over 43,000 times,</strong> with 30% of views leading to a download.</p>
+<p><strong>Carey MA</strong>, Papin JA (2018). <strong>Ten simple rules for biologists learning to program.</strong> <em>PLOS Computational Biology</em> 14(1): e1005871. <a href="https://doi.org/10.1371/journal.pcbi.1005871" class="uri">https://doi.org/10.1371/journal.pcbi.1005871</a> <strong>Accessed over 48,000 times,</strong> with 30% of views leading to a download.</p>
 <p>Medlock GL, <strong>Carey MA</strong>, McDuffie DG, Mundy MB, Giallourou N, Swann JR, Kolling G, Papin JA (2018). <strong>Metabolic mechanisms of interaction within a defined gut microbiota.</strong> <em>Cell Systems.</em> <a href="https://doi.org/10.1016/j.cels.2018.08.003" class="uri">https://doi.org/10.1016/j.cels.2018.08.003</a> <strong>Most viewed Cell Systems paper for 3 months.</strong></p>
-<p><strong>Carey MA</strong>, Untaroiu AM, Guler JL, Papin JA (2018). <strong>Leveraging the effects of chloroquine on resistant malaria parasites for combination therapies.</strong> <em>bioRxiv.</em> <a href="https://doi.org/10.1101/428284" class="uri">https://doi.org/10.1101/428284</a></p>
+<p>Huckaby AC, Granum CS, <strong>Carey MA</strong>, Szlachta L, Al-Barghouthi B, Wang Y, Guler JL (2018. <strong>Complex DNA structures trigger copy number variation across the Plasmodium falciparum genome.</strong> <em>Nucleic Acids Research.</em> <a href="https://doi.org/10.1093/nar/gky1268" class="uri">https://doi.org/10.1093/nar/gky1268</a></p>
+<p><strong>Carey MA</strong>, Untaroiu AM, Guler JL, Papin JA (2018). <strong>Leveraging the effects of chloroquine on resistant malaria parasites for combination therapies.</strong> <em>bioRxiv</em>, accepted to <em>BMC Bioinformatics.</em> <a href="https://doi.org/10.1101/428284" class="uri">https://doi.org/10.1101/428284</a></p>
 </div>
 <div id="section-1" class="section level1">
 <h1>2017</h1>
