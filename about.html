@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -22,6 +22,15 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -69,9 +78,8 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
+
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +93,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -190,8 +197,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -236,6 +241,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -248,20 +254,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -314,14 +317,19 @@ $(document).ready(function () {
 
 
 <p><strong>Name:</strong> Maureen A. Carey</p>
-<p><strong>Occupation:</strong> Postdoctoral Research Associate with Dr. William Petri, Jr.</p>
-<p><strong>Affiliation:</strong> Division of Infectious Diseases and International Health at the University of Virginia, School of Medicine</p>
-<p><strong>PhD Mentors:</strong> William Petri See <a href="https://med.virginia.edu/petri-lab/">here for Petri lab website.</a></p>
-<p><strong>PhD Mentors:</strong> Jason A. Papin and Jennifer L. Guler See <a href="http://bme.virginia.edu/csbl/home.html">here for Papin lab website</a> and <a href="https://jlg5fw.wixsite.com/malarialab">here for the Guler lab website.</a></p>
+<p><strong>Occupation:</strong> Assistant Professor, Division of Infectious Diseases and International Health</p>
+<p>Co-Director of Data Science, <a href="https://microbiome.virginia.edu">Trans-University Microbiome Initiative</a></p>
+<p><strong>Affiliation:</strong> University of Virginia, School of Medicine</p>
+<p><strong>Contact:</strong> <a href="mailto:mac9jc@virginia.edu" class="email">mac9jc@virginia.edu</a></p>
+<p><strong>Twitter:</strong> <span class="citation">@MaureenACarey</span> or <span class="citation">@mcareylab</span></p>
+<p><strong>Post doc Mentor:</strong> William Petri</p>
+<p>See <a href="https://med.virginia.edu/petri-lab/">here for Petri lab website.</a></p>
+<p><strong>PhD Mentors:</strong> Jason A. Papin and Jennifer L. Guler</p>
+<p>See <a href="http://bme.virginia.edu/csbl/home.html">here for Papin lab website</a> and <a href="https://jlg5fw.wixsite.com/malarialab">here for the Guler lab website.</a></p>
 <p><strong>Research Interests:</strong> I am interested in engineering solutions to public health problems.</p>
 <p>In 2016, over 2.7 million children under the age of 5 years died due to preventable causes; infectious diseases such as malaria and diarrhea are among the top five killers of these children and, in many countries, are the leading cause of child mortality (see <strong>Fig. 1</strong>). The discrepancy in child mortality due to infection between high- and low/mid-income countries highlights the need to supplement clinical solutions with engineering approachs to extend disease prevention and treatment into lower income environments.</p>
 <div class="figure">
-<img src="map_child_mortality.png" alt="Figure 1: Leading causes of child mortality. doi:10.1001/jamapediatrics.2015.4276" />
+<img src="map_child_mortality.png" alt="" />
 <p class="caption">Figure 1: <strong>Leading causes of child mortality</strong>. <a href="doi:10.1001/jamapediatrics.2015.4276" class="uri">doi:10.1001/jamapediatrics.2015.4276</a></p>
 </div>
 <p>So far, my research has focused on understanding the metabolism of eukaryotic parasites (like the malaria parasite) to rationally design antimicrobials. My goal is to identify metabolic weaknesses of the parasite to design combination therapies to specifically target resistant parasites. The development of novel drugs is extremely expensive; thus, this approach is faster and lower cost by using existing drugs in new combinations. I use computational tools (<em>i.e.</em> genome-scale metabolic modeling, machine learning, and statistical models) to profile the phenotype of the malaria parasite, and supplement these tools with <em>in vitro</em> experiments.</p>
@@ -339,7 +347,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -347,6 +355,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

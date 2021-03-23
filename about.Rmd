@@ -5,17 +5,27 @@ title: "About Me"
 __Name:__ Maureen A. Carey
 
 
-__Occupation:__ Postdoctoral Research Associate with Dr. William Petri, Jr.
+__Occupation:__ Assistant Professor, Division of Infectious Diseases and International Health
+
+Co-Director of Data Science, [Trans-University Microbiome Initiative](https://microbiome.virginia.edu)
 
 
-__Affiliation:__ Division of Infectious Diseases and International Health at the University of Virginia, School of Medicine
+__Affiliation:__ University of Virginia, School of Medicine
 
 
-__PhD Mentors:__ William Petri
+__Contact:__ mac9jc@virginia.edu
+
+
+__Twitter:__ @MaureenACarey or @mcareylab
+
+
+__Post doc Mentor:__ William Petri
+
 See [here for Petri lab website.](https://med.virginia.edu/petri-lab/)
 
 
 __PhD Mentors:__ Jason A. Papin and Jennifer L. Guler
+
 See [here for Papin lab website](http://bme.virginia.edu/csbl/home.html) and [here for the Guler lab website.](https://jlg5fw.wixsite.com/malarialab)
 
 
@@ -34,3 +44,4 @@ Computational tools allow researchers to generate high-confidence, data-driven h
 In the United States, less than 20% of computer science or engineering undergraduate degrees are granted to women. The statistics for people of color are worse: less than 10% for both computer science or engineering undergraduate degrees. Representation drops for higher degrees (NSF, 2014). Moreover, few biologists are trained in programming or basic computer science, and this excludes the 'problem' driven students from entering the field of computational biology, leaving only students who entered the field from a technical background. 
 
 Thus, I wrote 'Ten Simple Rules for biologists learning to program' reflecting on my learning to program experience and with ten tips to self-taught programmers. I am interested in increasing diversity in science by providing engaged mentorship to support young scientists and research opportunities for aspiring scientists, and by investing in traditional diversity initiatives.
+
